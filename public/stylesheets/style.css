@@ -15,7 +15,7 @@
 @import url("mCustomScrollbar.css");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
 @import url("fonts/BloggerSans/BloggerSans.css");
-
+@import url('../../src/assets/images/slider/bg-ft.jpg');
 /**
   *	Reset
   *	Repeatable Patterns
@@ -2620,7 +2620,7 @@ footer.style1 {
 
 footer.style2 {
 	border-top:none;
-	background:url('../images/slider/bg-ft.jpg') bottom center repeat;
+	background:url("../../src/assets/images/slider/bg-ft.jpg");
 }
 
 footer.style2 .container-fluid {
@@ -2706,13 +2706,15 @@ footer.style4 .widget-newsletter {
 }
 
 .widget-ft .widget-title h3 {
-	color:#484848;
+	color:white;
 	font-weight:500;
 	margin-top:8px;
 	margin-bottom:24px;
 	margin-left:-1px;
 }
-
+.google-play {
+	border: 1px solid #484848 !important;
+  }
 .widget-ft.style2 .widget-title h3 {
 	color:#fff;
 }
@@ -2746,7 +2748,7 @@ footer.style4 .widget-newsletter {
 .widget-about .widget-content .info p.phone {
 	font-size:18px;
 	font-weight:700;
-	color:#484848;
+	color:white;
 	margin-right:-30px;
 	margin-bottom:9px;
 }
@@ -2846,7 +2848,7 @@ ul.pay-list li:last-child {
 /* Widget Apps */
 .widget-apps .widget-title h3 {
 	text-align:center;
-	color:#484848;
+	color:white;
 	font-weight:500;
 	margin-top:33px;
 	margin-bottom:25px;
@@ -2885,7 +2887,8 @@ ul.app-list li:hover {
 }
 
 ul.app-list li.app-store {
-	margin-right:25px
+	margin-right:25px;
+	border:1px solid #484848;
 }
 
 ul.app-list li a {
@@ -2907,11 +2910,13 @@ ul.app-list li a .text {
 }
 
 ul.app-list li a .text h4 {
-	color:#484848;
+	color:white;
 	font-weight:500;
 	line-height:24px;
 }
-
+.subscribe-email {
+	border: 1px solid #484848 !important;
+  }
 ul.app-list li a .text p {
 	color:#919191;
 }

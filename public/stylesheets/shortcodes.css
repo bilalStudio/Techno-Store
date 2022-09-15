@@ -2667,7 +2667,7 @@ ul.flat-infomation.style1 li img {
 /* Boxed Style1 */
 .boxed.style1 .flat-row {
 	margin-bottom:30px;
-	padding:0px;
+	/* padding:0px; */
 }
 
 .boxed.style1 .flat-row.flat-highlights {
@@ -3796,7 +3796,7 @@ body.background .flat-imagebox.style4 .owl-carousel-3.owl-theme .owl-controls .o
 }
 
 #shop .sidebar .widget {
-	margin-bottom:0px;
+	margin-bottom:36px;
 }
 
 #shop .sidebar .widget .widget-content {

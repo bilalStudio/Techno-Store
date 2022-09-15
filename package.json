@@ -1,5 +1,6 @@
 {
   "name": "techno_store",
+  "homepage": "file:///C:/xampp/htdocs/build/index.html",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,4 +41,5 @@
     "file-loader": "^6.2.0",
     "react-router-dom": "^6.3.0"
   }
+  
 }

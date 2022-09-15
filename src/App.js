@@ -1,25 +1,26 @@
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import React from "react";
-import About from "./screen/home";
-import Container from "./common/Container";
 import Home from "./screen/home";
+import Contact from "./screen/contact";
+import Faq from "./screen/faq";
+import ProductDetails from "./screen/product_details";
+import Cart from "./screen/cart";
+import CheckOut from "./screen/checkout";
+import Registration from "./screen/register_login";
+import CategoryDetail from "./screen/category_details";
 
-/*import Blog from "./screen/Blog";
-import Resume from "./screen/Resume";
-import Contact from "./screen/Contact";
-import Portfolio from "./screen/Portfolio";
-import Blog_Details from "./screen/Blog_Details";*/
 function App() {
   return (
      <BrowserRouter>
-        <Routes>
-          <Route path="/home" element={<Home/>}/>
-
-          {/* <Route path='blog' element={<Blog/>} />
-          <Route path="resume" element={<Resume/>} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="portfolio" element={<Portfolio />} />
-          <Route path="blog_details" element={<Blog_Details />} /> */}
+        <Routes   basename=''>
+          <Route path="techno_store/home" element={<Home/>}/>
+          <Route path="techno_store/contact" element={<Contact/>}/>
+          <Route path="techno_store/faq" element={<Faq/>}/>
+          <Route path="techno_store/product_details" element={<ProductDetails/>}/>
+          <Route path="techno_store/shop_cart" element={<Cart/>}/>
+          <Route path="techno_store/shop_checkout" element={<CheckOut/>}/>
+          <Route path="techno_store/registration" element={<Registration/>}/>
+          <Route path="techno_store/category_details" element={<CategoryDetail/>}/>
         </Routes>
       </BrowserRouter>
 
